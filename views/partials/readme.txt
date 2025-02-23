@@ -1,0 +1,1 @@
+USO: cabeceras, pies de página, etc.

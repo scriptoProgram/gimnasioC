@@ -1,0 +1,1 @@
+USO: para redireccionar o proteger rutas
