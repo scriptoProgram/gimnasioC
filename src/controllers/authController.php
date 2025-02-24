@@ -1,6 +1,8 @@
 <?php
-    require_once __DIR__ . './../models/userModel.php';
-    require_once './../helpers/sessionHelper.php';
+    // require_once __DIR__ . './../models/userModel.php';
+    // require_once './../helpers/sessionHelper.php';
+    require_once realpath(__DIR__ . '/../models/userModel.php');
+    require_once realpath(__DIR__ . '/../helpers/sessionHelper.php');
 
     class AuthController {
         public static function login($email, $password) {
