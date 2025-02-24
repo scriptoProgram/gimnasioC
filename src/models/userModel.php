@@ -1,5 +1,5 @@
 <?php
-    require_once './../config/database.php';
+    include './../config/database.php';
 
     class UserModel {
         public static function getUserByEmail($email) {
