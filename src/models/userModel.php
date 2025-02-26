@@ -7,6 +7,7 @@ ini_set('display_errors', 1);
     class UserModel {
         public static function getUserByEmail($email) {
             $conn = Database::Connect();
+            
             if ($conn === null) {
                 die("Error de conexión a la base de datos.");
             }
